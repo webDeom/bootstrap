@@ -1,0 +1,530 @@
+body {
+	font-family: 'Microsoft YaHei', sans-serif;
+}
+
+.mai-icon {
+	background: rgb(64, 210, 177);
+	color: #fff;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 20px;
+}
+
+
+/*����*/
+
+.navbar-default {
+	background-color: #fff;
+	border: none;
+	box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.25);
+	padding: 10px;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 30px;
+	font-weight: bold;
+	color: #40D2B1;
+	height: 70px;
+	line-height: 35px;
+}
+
+.nav-top {
+	height: 45px;
+	width: 510px;
+}
+
+.nav-top button {
+	margin-left: 20px;
+	color: blue;
+	border-color: #B0B6DC;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 13px;
+	margin-top: 0px;
+	color: #666;
+	height: 30px;
+	line-height: 30px;
+}
+
+.navbar-form {
+	width: 580px;
+	height: 40px;
+}
+
+.form-control-add {
+	height: 34px;
+	width: 260px;
+}
+
+.navbar-toggle {
+	margin-top: 17px;
+	background: blue;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+.navbar-toggle:hover {
+    background-color: blue;
+}
+.menu {
+	font-weight: 800;
+	color: blue;
+	display: block;
+	float: right;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color: #ddd;
+    background: #2d2dd6;
+}
+.selected{
+	border:0px;
+	background:none;
+}
+
+body {
+	padding-top: 90px;
+	
+	color: #5a5a5a;
+}
+
+
+/* 轮播广告 */
+@font-face {
+  
+  font-family: 'Helveticall';   /*字体名称*/
+  src: url('../fonts/Helvetica.ttf');       /*字体源文件*/
+}
+.carousel {
+	
+	margin-bottom: 60px;
+}
+
+.carousel .item {
+	height: 600px;
+	background-color: #000;
+}
+
+.carousel .item img {
+	width: 100%;
+	height:100%
+}
+
+.carousel-caption {
+	z-index: 10;
+}
+
+.carousel-caption p {
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 1.8;
+}
+.carousel-caption{
+	
+	margin-bottom:10%;
+	
+}
+.carousel-caption p{
+	font-size:18px;
+	width:98.8%;
+	
+}
+/*footer*/
+
+footer {
+	font-weight: 400;
+	text-align: center;
+	padding: 20px;
+}
+
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: auto;
+	text-align: center;
+	list-style: none;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+@media screen and (max-width:720px) and (min-width:320px) {
+	.logo img {
+		width: 180px;
+	}
+	.carousel {
+	height: 500px;
+	margin-bottom: 20px;
+}
+.carousel .item {
+	height: 500px;
+	background-color: #000;
+}
+
+	.carousel .item img {
+	   
+	   height:100%
+     }
+#aboutus{
+	text-align:center;
+}
+}
+
+/*solutions*/
+#soluition{
+	text-align:center;
+	font-family: helvetica;
+}
+#soluition span{
+	display:block;
+	padding:12px;
+	color:#2941fc;
+}
+#soluition h1{
+	color:#2941fc;
+	padding-top:40px;
+	padding-bottom:20px;
+}
+
+p.Fiber{
+	font-size:23px;
+	padding-bottom:40px;
+}
+/*why us开始*/
+@font-face {
+  font-family: 'Helvetica';   /*字体名称*/
+  src: url('../fonts/HelveticaNeueLTPro-ThEx.otf');       /*字体源文件*/
+ 
+}
+#whyus{
+	background:url(../images/whyus.jpg) center center no-repeat;
+	text-align: center;
+	font-family:"Helvetica";
+	width:100%;
+	height:auto;
+	background-size: cover;
+	color:#fff;
+	font-size:26px;
+}
+#whyus h1{
+	margin:40px 0px;
+	font-family:"Helvetica";
+	font-size: 40px;
+}
+#whyus .font-add{
+	font-size: 52px;
+	padding:10px 0 20px;
+}
+#whyus .font-add span{
+	font-size: 22px;
+}
+#whyus .font-add p{
+	font-size: 13px;
+	font-family: "微软雅黑";
+}
+#aboutus{
+	padding:0px;
+	margin:0px;
+}
+#aboutus .col-md-4{
+	padding-left: 0px;
+}
+#aboutus img{
+	width:95%;
+}
+#aboutus .col-md-12{
+       padding-left: 0px;	
+    }
+#aboutus .btn-primary{
+    	border-radius: 0PX;
+    }
+#aboutus h1{
+	margin-top: 50px;
+	font-size: 44px;
+	font-family: Helvetica;
+	color:blue;
+}
+#aboutus p.title-info{
+	font-size:22px;
+	font-family: Helvetica;
+}
+#aboutus p.title-txt{
+	font-size:14px;
+	color:#2D2DD6;
+	opacity: 1.1;
+}
+@media screen and (max-width:720px) and (min-width:320px) {
+	#aboutus p.title-txt{
+	margin-top:12px;
+	font-size:16px;
+	color:#2D2DD6;
+	opacity: .8;
+	text-align: left;
+	
+    }
+    #aboutus .col-xs-10{
+       padding-left: 20px;	
+    }
+    #aboutus .btn-primary{
+    	width:100%;
+    	font-size:2.0rem;
+    	border-radius: 0px;
+    	padding:14px;
+    	color:rgba(255,255,255,0.7);
+    }
+}
+#News{
+	background: #F5F5F5;
+	padding: 20px 0px;
+}
+#News h1{
+	font-family: Helvetica;
+	color:blue;
+	text-align: center;
+	font-size: 38px;
+}
+#News .text-info{
+	text-align: center;
+	font-size: 24px;
+	font-family: Helvetica;
+	color:#333;
+	
+}
+.bg-img{
+	background: url(../images/about-bg.jpg);
+	
+	padding:70px 32px 60px;
+	color:#FFFFFF;
+}
+.bg-img .title-txt{
+	font-weight: 600;
+	font-size: 15px;
+	color:#FFFFFF;
+	line-height: 1.8;
+	
+	display: block;
+}
+.bg-img .title-txt-last{
+	display: block;
+	margin-bottom: 15px;
+	font-weight: 600;
+	font-size: 16px;
+	color:#FFFFFF;
+}
+.bg-img .title-info{
+	font-size: 12px;
+	color:#FFFFFF;
+	opacity: .9;
+	line-height: 2.5;
+}
+.learn-one{
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	color:blue;
+	font-weight: 600;
+	padding:30px 0;
+}
+#News h4{
+	color:blue;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	font-weight: 600;
+}
+.learn-two{
+	color:blue;
+	padding-top:12px;
+	font-weight: bold;
+}
+#News .btn-primary{
+    	width:100%;
+    	font-size:2.0rem;
+    	border-radius: 0px;
+    	padding:14px;
+    	color:rgba(255,255,255,0.7);
+    	margin-top:12px;
+    }
+#Products{
+	background:url(../images/Products.jpg) center center no-repeat;
+	text-align: center;
+	font-family:"Helvetica";
+	width:100%;
+	height:auto;
+	background-size: cover;
+	color:#fff;
+	font-size:26px;
+	padding: 120px 0px;
+}
+#Products span{
+	font-size: 38px;
+	padding-right:40px;
+	border-bottom: 1px solid #fff;
+}
+#sun{
+	text-align: center;
+	padding:20px 40px 20px;
+}
+#sun h2{
+	font-size: 46px;
+	font-family: helvetica;
+	color:blue;
+	display: block;
+	padding-bottom: 20px;
+}
+#sun .list-one ul li{
+	display: block;
+	margin-right: 28px;
+	line-height:3.4;
+	color:#8C8C8C;
+	
+}
+#sun ul li:last-child{
+	margin-right: 0px;
+}
+#sun dl{
+	display: block;
+	margin-top:0px;
+	padding-top:0px;
+	margin-right: 40px;
+	color:#8C8C8C;
+}
+#sun dl:last-child{
+	
+	margin-right: 0;
+}
+#sun .list-two{
+	padding-left: 20px;
+	color:#8C8C8C;
+}
+#sun .list-two ul li:nth-child(2n){
+	margin:0 8px;
+}
+@media screen and (max-width:780px) and (min-width:320px) {
+	#sun{
+		padding-bottom: 0px;
+	}
+	#sun .list-two ul li{
+        display: inline-block;	
+	}
+	#sun h2{
+		padding-bottom: 0;;
+	}
+}
+#friendship{
+	width:100%;
+	background-color:#3434EC;
+	padding:0px 40px 10px;
+	color:#f7f7f7;
+	font-family: "微软雅黑";
+	
+}
+#friendship .container-fluid{
+	padding-top:20px;
+	padding-bottom: 10px;
+}
+#friendship ul li{
+	list-style: none;
+	display: block;
+	
+}
+#friendship ul li:nth-child(odd){
+	margin:0 4px;
+	margin-top:-5px;
+}
+#friendship ul li:last-child{
+	margin:0 4px;
+	margin-top:0px;
+}
+#friendship ul li:nth-child(5){
+	margin-top: 0px;
+	
+}
+#friendship ul li:nth-child(2n){
+	margin-right:14px;
+	
+}
+.foot{
+	letter-spacing:.9px;
+	font-size: 14px;
+	color:#A29D9D;
+}
+#friendship-mini{
+	width:100%;
+	background-color:#3434EC;
+	padding:20px 40px 10px;
+	color:#f7f7f7;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+#friendship-mini h2{
+	font-size: 48px;
+	font-family: helvetica;
+	margin-bottom: 20px;
+}
+#friendship-mini .col-xs-4{
+	padding-right: 0px;
+}
+.outline{
+    position:fixed;
+	right:0px;
+	bottom:120px;
+	padding:10px 20px;
+	font-size:11px;
+	text-align:center;
+	color:#FFFFFF;
+	opacity:0;
+    transition: all 1.5s
+}
+.outline .outline-item1{
+    width:65px;
+	height:70px;
+	display:block;
+	background:#00aceb;
+	padding:5px 5px;
+	
+}
+.outline a{
+    text-decoration:none;
+	color:#FFFFFF;
+}
+.outline .outline-item2{
+    width:65px;
+	height:70px;
+	display:block;
+	background:#20a713;
+	padding-top:5px;
+}
+.outline .outline-item3{
+    width:65px;
+	height:70px;
+	display:block;
+	background:#40ca0b;
+	padding:5px 5px;
+}
+.outline .outline-item4{
+    width:65px;
+	height:70px;
+	display:block;
+	background:#00bf02;
+	padding:5px 5px;
+}
+.outline .outline-item5{
+    width:65px;
+	height:70px;
+	display:block;
+	background:#0000FF;
+	padding:15px 5px;
+	
+}
